@@ -13,6 +13,7 @@ When you are finished commit your changes and and merge your fork with this repo
 - Everything you create must be usable for free!
 - Logos you create for companies must be created by yourself!
 - Your webpage should be suitable for minors!
+- No Javascript is allowed inside the webpages!
 
 We will exclude everyone from the competition who will not follow these rules! Excluded webpages will not take part in the competition.
 
