@@ -1,0 +1,69 @@
+.bjoernhub-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+   .header {
+     background-color: #1B1B1B;
+     height: 60px;
+     box-sizing: content-box;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 16px;
+     color: white;
+     .site-logo {
+       width: 200px;
+       height: 60px;
+       background-repeat:  no-repeat;
+       background-size: contain;
+       
+      background-image: url('./brands/bjoernhub.png')
+    }
+   }
+   .bjoerns {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: black;
+    padding-top: 16px;
+    padding: 8px;
+      .thumbnail {
+        margin: 15px;
+        cursor: pointer;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        > div {
+          width: 300px;
+          height: 200px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: flex-end;
+          span {
+            margin: 12px;
+            color: white;
+          }
+        }
+        span {
+          margin-top: 4px;
+          color: #F7971D;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+     
+   }
